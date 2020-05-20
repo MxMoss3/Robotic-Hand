@@ -1,7 +1,7 @@
 # Robotic-Hand Overview
 
 ## Construction
-This is the code for my senior project, building a rock, paper, scissors-playing hand. The open-source design for the 3d-printed arm comes from the [InMoov Robot](http://inmoov.fr). The fingers are actuated by 5 servos that are controlled by an arduino, powered by two 9-volt batteries in parallel. The arduino recevives commands from my computer via serial port. 
+This is the code for my senior project, building a rock, paper, scissors-playing hand. The open-source design for the 3d-printed arm comes from the [InMoov Robot](http://inmoov.fr). The fingers are actuated by 5 servos that are controlled by an arduino, powered by two 9-volt batteries in parallel. The arduino receives commands from my computer via serial port. 
 
 ## Code
 The Arduino code simply receives key presses from the laptop and sends the corresponding command to the servos to move the fingers.
